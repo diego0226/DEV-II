@@ -1,0 +1,11 @@
+a {
+    text-transform: uppercase;
+}
+footer a {
+    text-transform: lowercase;
+}
+
+a.test{
+    text-transform: uppercase;
+    color: rgb(250 0, 0)
+}
