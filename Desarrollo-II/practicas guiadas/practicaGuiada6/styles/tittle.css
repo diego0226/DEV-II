@@ -1,0 +1,38 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: black;
+    animation: alternate-reverse;
+}
+
+.red {
+    color: red;
+    border-radius: 8px;
+    border-style: inset;
+    background-color: antiquewhite;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange{
+    color: orange;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+*{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/011/847/666/large/paul-mader-summer.jpg?1531751270);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant-emoji: emoji;
+    text-align: center;
+}

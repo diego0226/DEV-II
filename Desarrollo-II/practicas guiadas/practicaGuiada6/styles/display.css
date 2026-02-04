@@ -1,0 +1,10 @@
+h2{
+    display: none;
+}
+
+div.myClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
