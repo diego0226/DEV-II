@@ -31,7 +31,7 @@ registerForm.addEventListener("submit", async (e) => {
 
     const data = await response.json();
     console.log("Usuario registrado:", data);
-    alert("Registro exitoso papi 🔥");
+    alert("Registro exitoso");
 });
 
 loginForm.addEventListener("submit", async (e) => {
@@ -53,8 +53,8 @@ loginForm.addEventListener("submit", async (e) => {
     const data = await response.json();
 
     if (data) {
-        alert("Bienvenido " + data.name + " 😎");
+        alert("Bienvenido " + data.name);
     } else {
-        alert("Credenciales incorrectas ❌");
+        alert("Credenciales incorrectas");
     }
 });
