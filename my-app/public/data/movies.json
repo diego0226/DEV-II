@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": "Ciencia Ficción",
+    "rating": 8.6,
+    "posterUrl": "https://example.com/interstellar",
+    "img": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+    "description": "Un grupo de exploradores viaja a través de un agujero de gusano.",
+    "duration": 169,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Ciencia Ficción",
+    "rating": 8.8,
+    "posterUrl": "https://example.com/inception",
+    "img": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "description": "Un ladrón especializado en el robo de secretos a través de los sueños recibe la misión de implantar una idea en la mente de un objetivo.",
+    "duration": 148,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "Acción",
+    "rating": 9.0,
+    "posterUrl": "https://example.com/the-dark-knight",
+    "img": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "description": "Batman enfrenta al Joker, un criminal caótico que busca sumir a Gotham en la anarquía.",
+    "duration": 152,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": "Ciencia Ficción",
+    "rating": 8.7,
+    "posterUrl": "https://example.com/the-matrix",
+    "img": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "description": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra sus controladores.",
+    "duration": 136,
+    "director": "Lana y Lilly Wachowski"
+  },
+  {
+    "id": 5,
+    "title": "F1",
+    "year": 2025,
+    "genre": "Deporte / Acción",
+    "rating": 8.2,
+    "posterUrl": "https://example.com/f1",
+    "img": "https://gxtra-cr-dxtra.cdn.mediatiquepress.com/wp-content/uploads/2025/06/F1-La-Pelicula-800x450.jpeg",
+    "description": "Un piloto veterano regresa a la Fórmula 1 para competir junto a una joven promesa en un equipo en crisis.",
+    "duration": 155,
+    "director": "Joseph Kosinski"
+  },
+  {
+    "id": 6,
+    "title": "Minecraft: La Película",
+    "year": 2025,
+    "genre": "Aventura / Fantasía",
+    "rating": 7.5,
+    "posterUrl": "https://example.com/minecraft",
+    "img": "https://purodiseno.lat/wp-content/uploads/2024/09/MINECRAFT-2.png",
+    "description": "Un grupo de aventureros es transportado al mundo cúbico de Minecraft, donde deberán aprender a sobrevivir y trabajar en equipo para regresar a casa.",
+    "duration": 120,
+    "director": "Jared Hess"
+  }
+]

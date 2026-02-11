@@ -1,7 +1,28 @@
 import { Link } from "react-router-dom";
 import MoviesList from "./MoviesList";
+import { useEffect, useState } from "react";
+import { getMovies } from "../../services/movies.service";
+import type { Movie } from "../../models/movie.model";
 
 export default function Movies() {
+  const [movies, setMovies] = useState<Movie[]>([]);
+  const [loading, setLoading] = useState(true);
+  
+  useEffect(() => {
+    getMovies()
+      .then(setMovies)
+      .finally(() => setLoading(false));
+    
+    }, []);
+
+    if (loading) {
+      return(
+        <div className="min-h-screen ">
+          cargando....
+        </div>
+      );
+      
+    }
   return (
     <section className="max-w-6xl mx-auto px-4 md:px-6 py-8">
       <Link
@@ -16,7 +37,8 @@ export default function Movies() {
         <p className="text-gray-600">Explore the list of available movies</p>
       </header>
 
-      <MoviesList />
+      <MoviesList movies={movies}/>
+      
     </section>
   );
 }
